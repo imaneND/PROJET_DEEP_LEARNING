@@ -4,7 +4,7 @@
 > Module : Deep Learning | Filière : 4ème année — Intelligence Artificielle et Data  
 > Année universitaire : 2025–2026 | Encadrant : Mosaab Batal
 
-👩‍💻 **Réalisé par:**
+ **Réalisé par:**
 
 Imane Nadif
 
