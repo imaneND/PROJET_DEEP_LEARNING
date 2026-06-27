@@ -4,7 +4,7 @@
 > Module : Deep Learning | Filière : 4ème année — Intelligence Artificielle et Data  
 > Année universitaire : 2025–2026 | Encadrant : Mosaab Batal
 
- **Réalisé par:**
+f **Réalisé par:**
 
 Imane Nadif
 
@@ -19,7 +19,7 @@ Ce projet couvre trois grandes familles d'architectures de deep learning, chacun
 
 | Partie | Architecture | Type de données | Dataset |
 |--------|-------------|-----------------|---------|
-| I | MLP | Tabulaires | Wine Quality (178 exemples, 13 features, 3 classes) |
+| I | MLP | Tabulaires | Wine Quality UCI (1599 exemples, 11 features, 6 classes) |
 | II | CNN + Dérivés (LeNet, AlexNet, VGG) | Images | MNIST (70 000 images 28×28) |
 | III | RNN / LSTM / GRU / Transformer | Séquences | Tatoeba fra-eng (5 000 paires) |
 
@@ -73,7 +73,7 @@ PROJET_DEEP_LEARNING/
 
 ### Partie I — MLP et Ingénierie PyTorch
 
-- Implémentation de 5 architectures MLP sur **Wine Quality**
+- Implémentation de 5 architectures MLP sur **Wine Quality UCI (~1599 exemples)**
 - Comparaison de 3 stratégies d'initialisation : Gaussienne, Constante, Xavier
 - **Best Model : MLP 2 — [64, 32]** avec 3 075 paramètres → Test Accuracy = **100%**
 - Techniques : `nn.Module`, `state_dict`, Dropout, DataLoader, StandardScaler
